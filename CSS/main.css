@@ -1,0 +1,29 @@
+main {
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0px 40px 0px;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.board-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #e2e6e9;
+  width: 50px;
+  height: 50px;
+  font-weight: bold;
+}
+#timer {
+  font-size: larger;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
