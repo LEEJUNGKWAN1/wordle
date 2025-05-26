@@ -1,4 +1,4 @@
-|<H1 align="center">wordle clone</H1>|
+|<H1 align="center">Wordle Clone</H1>|
 |-|
 |![wordle](https://github.com/user-attachments/assets/755ab293-612a-429e-9673-550d0670d738)|
 
