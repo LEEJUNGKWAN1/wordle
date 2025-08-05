@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wordle</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Wordle!</h1>
+      <div class="game-info">
+        <p>5글자 단어를 6번의 기회로 맞춰보세요!</p>
+        <p id="message"></p>
+      </div>
+
+      <div class="game-board" id="gameBoard">
+        <!-- 게임 보드가 JavaScript로 생성됩니다 -->
+      </div>
+
+      <div class="keyboard" id="keyboard">
+        <!-- 키보드가 JavaScript로 생성됩니다 -->
+      </div>
+
+      <div class="controls">
+        <button id="newGameBtn">새 게임</button>
+        <button id="hintBtn">힌트</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
